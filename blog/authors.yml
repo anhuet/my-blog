@@ -1,0 +1,8 @@
+default:
+  name: Author
+  title: Developer
+  url: https://github.com/anhuet
+  image_url: https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnBsOGtmbTU5b21nZ2g0YTlha2JkMHViYzdtMDJxZ2J2NHBrN2dpYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tIeCLkB8geYtW/giphy.gif
+  page: true
+  socials:
+    github: anhuet

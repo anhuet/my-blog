@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: anhuet/my-blog
+  branch: main
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: blog
+    label: Blog Posts
+    folder: blog
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Authors", name: "authors", widget: "list", default: ["default"] }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Body", name: "body", widget: "markdown" }
