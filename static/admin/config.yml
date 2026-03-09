@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: anhuet/my-blog
   branch: main
 
 media_folder: static/img
