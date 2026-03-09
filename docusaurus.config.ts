@@ -11,8 +11,8 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://anhuet.github.io',
-  baseUrl: '/my-blog/',
+  url: 'https://andy-til.netlify.app',
+  baseUrl: '/',
 
   organizationName: 'anhuet',
   projectName: 'my-blog',
