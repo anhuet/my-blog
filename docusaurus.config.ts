@@ -12,7 +12,7 @@ const config: Config = {
   },
 
   url: 'https://anhuet.github.io',
-  baseUrl: '/',
+  baseUrl: '/my-blog/',
 
   organizationName: 'anhuet',
   projectName: 'my-blog',
