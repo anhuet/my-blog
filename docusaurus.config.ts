@@ -1,11 +1,17 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import 'dotenv/config';
 
 const config: Config = {
   title: 'Andy TIL',
   tagline: 'Learn and share ',
   favicon: 'img/favicon.ico',
+
+  customFields: {
+    supabaseUrl: process.env.SUPABASE_URL,
+    supabasePublishableKey: process.env.SUPABASE_PUBLISHABLE_KEY,
+  },
 
   future: {
     v4: true,
@@ -80,6 +86,7 @@ const config: Config = {
       hideOnScroll: true,
       items: [
         {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/checklist', label: 'Checklist', position: 'left'},
         {
           href: 'https://github.com/anhuet/my-blog',
           label: 'GitHub',
